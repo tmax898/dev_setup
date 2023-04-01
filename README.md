@@ -15,17 +15,19 @@ Stuff to setup windows for development
     * Use the toolbox to install IDEA or Fleet.
 * Install [Nerd Fonts](https://www.nerdfonts.com/)
   * Clone and run install scripts for powerline fonts. [Github]((https://github.com/ryanoasis/nerd-fonts))
-  * Cloning the whole project is huge. Just install powerline and fira.
+  * Cloning the whole project is huge. Just install Powerline and Fira.
   * Use the table in the README to follow to the actual repo. Name of font is the REPO's name *NOT* the nice human formatted name.
   ```
-  # After doing a shallow clone (Read through the nerdfonts README)
+  # After doing a shallow clone (Read through the Nerdfonts README)
   $ .\install.ps1 FiraCode
   ```
-  * Refer to [link](https://www.sharepointdiary.com/2014/03/fix-for-powershell-script-cannot-be-loaded-because-running-scripts-is-disabled-on-this-system.html) to give powershell the ability to run the install script
+  * Refer to [link](https://www.sharepointdiary.com/2014/03/fix-for-powershell-script-cannot-be-loaded-because-running-scripts-is-disabled-on-this-system.html) to give powershell the ability to run the install script if permission issues arise.
 * Update Hyper and its settings.
   * Copy over .hyper.js configs to `~/{user}/AppData/Roaming/Hyper`
-  * Note the `hypercwd` pluggin is not supported and does not work with WSL.
-
+  * Note the `hypercwd` plugin is not supported and does not work with WSL.
+  * Notable differences:
+    * Sets Hyper to use WSL on launch.
+    * Adds  `hyper-pane` and `hyper-night-owl` theme.
 
 ## Linux Side
 * Make a directory for your projects at `~/home`.
@@ -49,5 +51,20 @@ Stuff to setup windows for development
 * Once installed, add ssh key agent to start .zshrc
 ```
 # Add this to the .zshrc file
-eval $(ssh-agent)
+eval $({ssh-agent} &>/dev/null)
 ```
+### Local Langs
+* Node
+  * Install node using nvm
+  ```
+  # Install nvm
+  $ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash\n
+
+  # Install node
+  nvm install node 
+  ```
+* Rust
+  * Use [Rustup](https://rust-lang.github.io/rustup/installation/other.html) to manage versions
+  ```
+  $ curl https://sh.rustup.rs -sSf | sh
+  ```
