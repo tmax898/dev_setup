@@ -48,10 +48,12 @@ Stuff to setup windows for development
     * [Github Issue to follow for resolution](https://github.com/spaceship-prompt/spaceship-prompt/issues/1330)
   * Current selected theme alternative: [Powerlevel10k](https://github.com/romkatv/powerlevel10k#oh-my-zsh)
 
-* Once installed, add ssh key agent to start .zshrc
+* Once installed, add keychain and add to zsh
 ```
+# Install keychain
+sudo zypper in keychain
 # Add this to the .zshrc file
-eval $({ssh-agent} &>/dev/null)
+eval `keychain --quiet --eval --agents ssh id_ed25519`
 ```
 ### Local Langs
 * Node
