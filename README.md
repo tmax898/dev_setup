@@ -10,5 +10,6 @@ Stuff to setup windows for development
 * Install [Rancher Desktop](https://rancherdesktop.io/)
 * IDE
   * [VS Code](https://code.visualstudio.com/)
-  * [Jetbrain Toolbox](https://www.jetbrains.com/toolbox-app/)
+  * Jetbrains works great, but does not currently have a WSL CLI launch command. Install if you don't mind running IDE from windows and linking to WSL after the fact.
+    * [Jetbrain Toolbox](https://www.jetbrains.com/toolbox-app/)
     * Use the toolbox to install IDEA    
