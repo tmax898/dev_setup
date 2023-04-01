@@ -1,6 +1,5 @@
 # Windows-dev-setup
-Stuff to setup windows for development
-
+My local setup steps to get a dev environment up and running in windows. Goals are to use something like Ansible or Terraform to codify setups.
 ## Windows side
 * Terminal [Hyperjs](https://hyper.is/)
   * Swap out for [Warp](https://www.warp.dev/) when availible for windows 
