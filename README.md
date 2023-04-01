@@ -24,6 +24,7 @@ Stuff to setup windows for development
   * Refer to [link](https://www.sharepointdiary.com/2014/03/fix-for-powershell-script-cannot-be-loaded-because-running-scripts-is-disabled-on-this-system.html) to give powershell the ability to run the install script
 * Update Hyper and its settings.
   * Copy over .hyper.js configs to `~/{user}/AppData/Roaming/Hyper`
+  * Note the `hypercwd` pluggin is not supported and does not work with WSL.
 
 
 ## Linux Side
@@ -41,6 +42,10 @@ Stuff to setup windows for development
   $ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
   ```
 * Install the [SpaceShip theme](https://spaceship-prompt.sh/getting-started/)
+  * **As of this README version spaceship theme in Linux does not work** Issue with zsh async.
+    * [Github Issue to follow for resolution](https://github.com/spaceship-prompt/spaceship-prompt/issues/1330)
+  * Current selected theme alternative: [Powerlevel10k](https://github.com/romkatv/powerlevel10k#oh-my-zsh)
+
 * Once installed, add ssh key agent to start .zshrc
 ```
 # Add this to the .zshrc file
