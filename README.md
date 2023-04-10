@@ -55,6 +55,10 @@ sudo zypper in keychain
 eval `keychain --quiet --eval --agents ssh id_ed25519`
 ```
 ### Local Langs
+* Install GCC. This will help with all things compiling/building.
+  ```
+  $ sudo zypper in gcc
+  ```
 * Node
   * Install node using nvm
   ```
