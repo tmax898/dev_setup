@@ -1,6 +1,6 @@
 # Windows-dev-setup
 
-My local setup steps to get a dev environment up and running in windows. Goals are to use something like Ansible or Terraform to codify setups.
+My local setup steps to get a dev environment up and running in windows with WSL running OpenSUSE. Goals are to use something like Ansible or Terraform to codify setups.
 
 ## Windows side
 
