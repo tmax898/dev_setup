@@ -20,7 +20,7 @@ My local setup steps to get a dev environment up and running in windows. Goals a
   * Cloning the whole project is huge. Just install Powerline and Fira.
   * Use the table in the README to follow to the actual repo. Name of font is the REPO's name *NOT* the nice human formatted name.
 
-  ```
+  ```bash
   # After doing a shallow clone (Read through the Nerdfonts README)
   $ .\install.ps1 FiraCode
   ```
