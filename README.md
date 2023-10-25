@@ -48,7 +48,7 @@ My local setup steps to get a dev environment up and running in windows with WSL
 - Install git.
   - Set main as your default branch globally.
   ```bash
-    $ git config --global init.defaultBranch main
+    git config --global init.defaultBranch main
   ```
 
 ### Customize Terminal
