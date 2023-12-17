@@ -18,7 +18,7 @@ My local setup steps to get a dev environment up and running in windows with WSL
 - Install [Nerd Fonts](https://www.nerdfonts.com/)
 
   - Clone and run install scripts for powerline fonts. [Github](<(https://github.com/ryanoasis/nerd-fonts)>)
-  - Cloning the whole project is huge. Just install Powerline and Fira.
+  - Cloning the whole project is huge. Just install and Firacode. Powerline is patched into that font.
   - Use the table in the README to follow to the actual repo. Name of font is the REPO's name _NOT_ the nice human formatted name.
 
   ```bash
