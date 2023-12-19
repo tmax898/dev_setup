@@ -94,7 +94,7 @@ eval `keychain --quiet --eval --agents ssh id_ed25519`
 
   ```bash
   # Install nvm
-  $ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash\n
+  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
 
   # Install node
   nvm install node
