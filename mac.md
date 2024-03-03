@@ -4,7 +4,15 @@
 
 This is more straightfoward since we don't need the subsystem crossover hoopla.
 
-## Install list
+## Install
+
+### Software
+
+- Rectangle
+- Raycast
+- Chrome
+
+### Tech stuff
 
 - [Install brew](https://docs.brew.sh/Installation)
 - Install Hyper
@@ -19,6 +27,10 @@ This is more straightfoward since we don't need the subsystem crossover hoopla.
 - Install Nerdfonts
   - Needs "Hack Nerd Font" for terminal p10k
 - Install Oh my Zsh
+- Install `nvm`
+  - Use it to install node
+- Zig
+- Rust
 
 ## Setup
 
