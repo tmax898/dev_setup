@@ -31,6 +31,10 @@ Preference is to install through DMGs and avoid going through the app store.
     - eslint
     - prettier
     - code spell check
+- Alternatively/additionally install Helix with brew.
+
+  `brew install helix`
+
 - Install Nerdfonts
 
   - "Hack Nerd Font" for terminal p10k
