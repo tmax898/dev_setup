@@ -13,6 +13,8 @@ Preference is to install through DMGs and avoid going through the app store.
 - Rectangle - Window manager
 - Raycast - Spotlight replacement
 - Chrome - Browser
+- [Obsidian](https://obsidian.md/download) - Notes
+  - Install Git Sync and sync with git repo. This will pull any other plugins as well.
 
 #### Communication tools
 
