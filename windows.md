@@ -3,7 +3,7 @@
 ## Windows side
 
 - Terminal [Hyperjs](https://hyper.is/)
-  - Swap out for [Warp](https://www.warp.dev/) when availible for windows
+  - Swap out for [Warp](https://www.warp.dev/) when available for windows
 - Follow instructions [here](https://learn.microsoft.com/en-us/windows/wsl/install) to install WSL2
   - Note `wsl --install` will install ubuntu by default. If you would like a different distro, read the instructions further to pick your distro.
   - Follow prompts, but it will expect you to `reboot`.
@@ -117,4 +117,13 @@ eval `keychain --quiet --eval --agents ssh id_ed25519`
   ```
 
 - Bun
+
   - Use [Bun's github page installation guide](https://github.com/oven-sh/bun)
+
+- Zig
+  - The latest stable is generally available through brew
+  - [Beta version](https://ziglang.org/download/) precompiled bins and libs are available to download.
+    ```
+    cp zig to /usr/local/bin
+    cp lib to /usr/local/libs/zig
+    ```
