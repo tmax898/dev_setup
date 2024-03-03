@@ -44,13 +44,17 @@
   - Creating anything from /mnt loses performance.
 - [Generate a SSH Key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 - Install git.
+
   - Set user name and email
+
   ```bash
   git config --global user.name "username"
 
   git config --global user.email "email"
   ```
+
   - Set main as your default branch globally.
+
   ```bash
     git config --global init.defaultBranch main
   ```
