@@ -88,12 +88,12 @@
 
 - Once installed, add keychain and add to zsh
 
-```bash
-# Install keychain
-sudo zypper in keychain
-# Add this to the .zshrc file
-eval `keychain --quiet --eval --agents ssh id_ed25519`
-```
+  ```bash
+  # Install keychain
+  sudo zypper in keychain
+  # Add this to the .zshrc file
+  eval `keychain --quiet --eval --agents ssh id_ed25519`
+  ```
 
 ### Local Langs
 
