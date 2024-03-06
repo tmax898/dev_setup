@@ -68,6 +68,14 @@ Other setup items to polish off the the dev experience.
 - Setup ssh keys
   - `ssh-keygen -t ed25519 -C "email"`
   - Add to keychain `ssh-add --apple-use-keychain ~/.ssh/id_ed25519`
+  - Add the following to `~/.ssh/config`
+
+    ```
+      Host *.github.com
+          UseKeychain yes
+          AddKeysToAgent yes
+          IdentityFile ~/.ssh/id_ed25519
+    ```
 - Setup global git
 
   ```
