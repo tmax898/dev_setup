@@ -53,6 +53,13 @@
   git config --global user.email "email"
   ```
 
+  - Set up gpg keys
+  ```
+  gpg --full-generate-key
+  git config --global user.signingkey <key>
+  git config --global commit.gpgsign true
+  ```
+  
   - Set main as your default branch globally.
 
   ```bash
