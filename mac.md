@@ -89,8 +89,8 @@ Other setup items to polish off the the dev experience.
   - Setup commits globally to be signed.
 
     ```
-    git config --global commit.gpgsign true
     git config --global user.signingkey <your key>      
+    git config --global commit.gpgsign true
     ```
 
 - Setup hyper configs
