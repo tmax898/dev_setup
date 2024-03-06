@@ -83,6 +83,15 @@ Other setup items to polish off the the dev experience.
 
   git config --global user.email "email"
   ```
+- Setup and sign commits
+  - Install [GPG Tools](https://gpgtools.org/)
+  - Create and add GPG key to github.
+  - Setup commits globally to be signed.
+
+    ```
+    git config --global commit.gpgsign true
+    git config --global user.signingkey <your key>      
+    ```
 
 - Setup hyper configs
 
