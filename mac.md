@@ -61,7 +61,7 @@ Preference is to install through DMGs and avoid going through the app store.
     ```
   - When running zig the first time, a prompt may appear that prevents zig from running. Go to System Setting -> Privacy and Security and allow it.
 - [Rust](https://www.rust-lang.org/tools/install) - As of this writing, use rustup to manager installations and versions.
-
+- Install Docker and Rancher. Don't install Docker studio, do everything through Rancher
 ## Setup
 
 Other setup items to polish off the the dev experience.
