@@ -15,6 +15,7 @@ Preference is to install through DMGs and avoid going through the app store.
 - Chrome - Browser
 - [Obsidian](https://obsidian.md/download) - Notes
   - Install Git Sync and sync with git repo. This will pull any other plugins as well.
+  - If running into GPG issues refer to https://github.com/denolehov/obsidian-git/issues/21
 
 #### Communication tools
 
@@ -66,6 +67,7 @@ Preference is to install through DMGs and avoid going through the app store.
 Other setup items to polish off the the dev experience.
 
 - Setup ssh keys
+
   - `ssh-keygen -t ed25519 -C "email"`
   - Add to keychain `ssh-add --apple-use-keychain ~/.ssh/id_ed25519`
   - Add the following to `~/.ssh/config`
@@ -76,6 +78,7 @@ Other setup items to polish off the the dev experience.
           AddKeysToAgent yes
           IdentityFile ~/.ssh/id_ed25519
     ```
+
 - Setup global git
 
   ```
@@ -83,13 +86,15 @@ Other setup items to polish off the the dev experience.
 
   git config --global user.email "email"
   ```
+
 - Setup and sign commits
+
   - Install [GPG Tools](https://gpgtools.org/)
   - Create and add GPG key to github.
   - Setup commits globally to be signed.
 
     ```
-    git config --global user.signingkey <your key>      
+    git config --global user.signingkey <your key>
     git config --global commit.gpgsign true
     ```
 
