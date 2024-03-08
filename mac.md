@@ -37,7 +37,7 @@ Preference is to install through DMGs and avoid going through the app store.
 - Alternatively/additionally install Helix with brew.
 
   `brew install helix`
-
+  - Follow up with the [Helix Setup](helix.md)
 - Install Nerdfonts
 
   - "Hack Nerd Font" for terminal p10k
