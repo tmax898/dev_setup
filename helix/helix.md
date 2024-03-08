@@ -5,6 +5,7 @@
 	- [Instructions for all the different langs](https://github.com/helix-editor/helix/wiki/How-to-install-the-default-language-servers)
 	- Install:
 		- Typescript
-		- Biome
+		- Biome - installed as a dev deps per project
 		- Zig
 		- Rust
+		- Markdown
