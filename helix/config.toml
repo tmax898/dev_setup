@@ -1,4 +1,4 @@
-theme = "base16_transparent"
+theme = "night_owl_transparent"
 
 [editor.file-picker]
 hidden = false
