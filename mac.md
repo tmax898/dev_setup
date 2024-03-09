@@ -60,6 +60,7 @@ Preference is to install through DMGs and avoid going through the app store.
     cp lib to /usr/local/libs/zig
     ```
   - When running zig the first time, a prompt may appear that prevents zig from running. Go to System Setting -> Privacy and Security and allow it.
+  - If installing ZLS from brew, it will take precidence over the bin in `/usr/local/bin`. Uninstall from brew as it could be the wrong version. 
 - [Rust](https://www.rust-lang.org/tools/install) - As of this writing, use rustup to manager installations and versions.
 - Install Docker and Rancher. Don't install Docker studio, do everything through Rancher
 ## Setup

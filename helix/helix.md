@@ -9,3 +9,4 @@
 		- Zig
 		- Rust
 		- Markdown
+		- JSON
