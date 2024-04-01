@@ -12,35 +12,13 @@ Preference is to install through DMGs and avoid going through the app store.
 
 - Rectangle - Window manager
 - Raycast - Spotlight replacement
-- Chrome - Browser
-- [Obsidian](https://obsidian.md/download) - Notes
-  - Install Git Sync and sync with git repo. This will pull any other plugins as well.
-  - If running into GPG issues refer to https://github.com/denolehov/obsidian-git/issues/21
-
-#### Communication tools
-
-- Discord
-- Slack
+- [Arc](https://arc.net/) - AI enabled browser currently only on Mac
 
 ### Tech stuff
 
 - [Install brew](https://docs.brew.sh/Installation)
-- [Install Hyper](https://hyper.is/)
-- [Install VS Code](https://code.visualstudio.com/download)
-  - Extensions:
-    - Nightowl - theme
-    - rust
-    - zig
-    - eslint
-    - prettier
-    - code spell check
-- A second options is neovim `brew install neovim`
-  - Use [Kickstart](https://github.com/nvim-lua/kickstart.nvim) to well... kickstart the setup.
-- Alternatively/additionally install Helix with brew.
 
-  `brew install helix`
 
-  - Follow up with the [Helix Setup](helix.md)
 
 - Install Nerdfonts
 
