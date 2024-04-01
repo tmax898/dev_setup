@@ -34,10 +34,14 @@ Preference is to install through DMGs and avoid going through the app store.
     - eslint
     - prettier
     - code spell check
+- A second options is neovim `brew install neovim`
+  - Use [Kickstart](https://github.com/nvim-lua/kickstart.nvim) to well... kickstart the setup.
 - Alternatively/additionally install Helix with brew.
 
   `brew install helix`
+
   - Follow up with the [Helix Setup](helix.md)
+
 - Install Nerdfonts
 
   - "Hack Nerd Font" for terminal p10k
@@ -60,9 +64,10 @@ Preference is to install through DMGs and avoid going through the app store.
     cp lib to /usr/local/libs/zig
     ```
   - When running zig the first time, a prompt may appear that prevents zig from running. Go to System Setting -> Privacy and Security and allow it.
-  - If installing ZLS from brew, it will take precidence over the bin in `/usr/local/bin`. Uninstall from brew as it could be the wrong version. 
+  - If installing ZLS from brew, it will take precidence over the bin in `/usr/local/bin`. Uninstall from brew as it could be the wrong version.
 - [Rust](https://www.rust-lang.org/tools/install) - As of this writing, use rustup to manager installations and versions.
 - Install Docker and Rancher. Don't install Docker studio, do everything through Rancher
+
 ## Setup
 
 Other setup items to polish off the the dev experience.
