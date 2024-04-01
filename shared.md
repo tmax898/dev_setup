@@ -7,6 +7,7 @@ These are all the cross platform tools to remember to install reguardless of OS.
 ### Software
 
 #### Browser
+
 - Chrome - Better than the default OS, normal use plenty of support, getting sketchier reguarding PII (not that it wasn't already).
 - [Brave](https://brave.com) - better privacy. Pick this over firefox or duck.
 - [Obsidian](https://obsidian.md/download) - Notes
@@ -20,6 +21,7 @@ These are all the cross platform tools to remember to install reguardless of OS.
 
 #### Coding Tools
 
+- Insomnia - REST client
 Installations of different langs and sdks will be left in the respective OS guides.
 - [Install Hyper](https://hyper.is/) - general use crossplatform terminal. Each OS has alternatives to avoid running an electron apps a terminal.
 
