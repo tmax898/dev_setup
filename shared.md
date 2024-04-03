@@ -22,11 +22,10 @@ These are all the cross platform tools to remember to install reguardless of OS.
 #### Coding Tools
 
 - Insomnia - REST client
-Installations of different langs and sdks will be left in the respective OS guides.
+  Installations of different langs and sdks will be left in the respective OS guides.
 - [Install Hyper](https://hyper.is/) - general use crossplatform terminal. Each OS has alternatives to avoid running an electron apps a terminal.
 
-- Neovim - in-terminal editor. A set of configs will get uploaded eventually. Kickstart will be the base set of configurations. Use respective OS package manager.
-  - TODO: double chcek that Mason has everything they need in the configs. If they do delete this otherwise list out all the LSPs, Linters, and formatters needed.
+- Neovim - in-terminal editor. Copy the nvim configs to the root `.config` directory. [Astro](https://docs.astronvim.com) is used as the base. Follow their intial guide to install all other needed deps
   - Alternatively [Install VS Code](https://code.visualstudio.com/download)
     - Extensions:
       - Nightowl - theme
