@@ -120,6 +120,6 @@
   - The latest stable is generally available through brew
   - [Beta version](https://ziglang.org/download/) precompiled bins and libs are available to download.
     ```
-    cp zig to /usr/local/bin
-    cp lib to /usr/local/libs/zig
+    cp pathtonew/zig to /usr/local/bin
+    cp -r lib/* /usr/local/libs/zig
     ```
