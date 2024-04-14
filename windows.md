@@ -2,6 +2,8 @@
 
 ## Windows side
 
+- Update the windows registry to hide shortcut arrows.
+  - Under `HKEY_LOCAL_MACHINE/SOFTWARE/Microsoft/Windows/CurrentVersion/Explorer` create a new key called `Shell Icons` and add a new value of `29: %windir%\System32\shell32.dll,-50`
 - Window's built in Terminal has come a long ways.
   - TODO: CREATE GUIDE FOR CONFIGS AND THEMES.
 - If using Hyper, update Hyper and its settings with the set of windows configs.
@@ -15,6 +17,7 @@
   - Follow prompts, but it will expect you to `reboot`.
 - Install [Rancher Desktop](https://rancherdesktop.io/)
 - Install [Nerd Fonts](https://www.nerdfonts.com/)
+
   - Clone and run install scripts for powerline fonts. [Github](<(https://github.com/ryanoasis/nerd-fonts)>)
   - Cloning the whole project is huge. Just install and Firacode. Powerline is patched into that font.
   - Use the table in the README to follow to the actual repo. Name of font is the REPO's name _NOT_ the nice human formatted name.
@@ -47,12 +50,13 @@
   ```
 
   - Set up gpg keys
+
   ```
   gpg --full-generate-key
   git config --global user.signingkey <key>
   git config --global commit.gpgsign true
   ```
-  
+
   - Set main as your default branch globally.
 
   ```bash
