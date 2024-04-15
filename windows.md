@@ -3,7 +3,7 @@
 ## Windows side
 
 - Update the windows registry to hide shortcut arrows.
-  - Under `HKEY_LOCAL_MACHINE/SOFTWARE/Microsoft/Windows/CurrentVersion/Explorer` create a new key called `Shell Icons` and add a new value of `29: %windir%\System32\shell32.dll,-50`
+  - Under `HKEY_LOCAL_MACHINE/SOFTWARE/Microsoft/Windows/CurrentVersion/Explorer` create a new key called `Shell Icons` and add a new value of `29: `PATH/TO/Blank.ico`
 - Window's built in Terminal has come a long ways.
   - TODO: CREATE GUIDE FOR CONFIGS AND THEMES.
 - If using Hyper, update Hyper and its settings with the set of windows configs.
