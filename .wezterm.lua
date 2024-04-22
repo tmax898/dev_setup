@@ -13,7 +13,7 @@ local config = wezterm.config_builder()
 config.color_scheme = "Night Owl (Gogh)"
 
 -- fonts
-config.font = wezterm.font("FiraCode Nerd Font Mono")
+config.font = wezterm.font("FiraCode Nerd Font")
 
 config.keys = {
 	{
