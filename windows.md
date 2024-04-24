@@ -127,3 +127,4 @@
     cp pathtonew/zig to /usr/local/bin
     cp -r lib/* /usr/local/libs/zig
     ```
+  - Install zls. Either use the prebuilt bins and copy to `/usr/bin/zls` and update permission with `chmod +x zls` or build with the latest release of zig.
