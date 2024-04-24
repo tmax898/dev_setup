@@ -88,6 +88,9 @@
   eval `keychain --quiet --eval --agents ssh id_ed25519`
   ```
 
+- Install libicu to use marksman in nvim.
+  `zypper in libicu`
+
 ### Local Langs
 
 - Install GCC. This will help with all things compiling/building.
