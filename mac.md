@@ -18,8 +18,6 @@ Preference is to install through DMGs and avoid going through the app store.
 
 - [Install brew](https://docs.brew.sh/Installation)
 
-
-
 - Install Nerdfonts
 
   - "Hack Nerd Font" for terminal p10k
@@ -73,7 +71,9 @@ Other setup items to polish off the the dev experience.
 
 - Setup and sign commits
 
-  - Install [GPG Tools](https://gpgtools.org/)
+  - Install either
+    - `brew install gnupg`
+    - [GPG Tools](https://gpgtools.org/)
   - Create and add GPG key to github.
   - Setup commits globally to be signed.
 
