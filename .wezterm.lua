@@ -29,6 +29,8 @@ config.keys = {
 }
 
 config.hide_tab_bar_if_only_one_tab = true
+config.pane_focus_follows_mouse = true
+
 -- and finally, return the configuration to wezterm
 
 return config
