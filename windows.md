@@ -124,10 +124,4 @@
   - Use [Bun's github page installation guide](https://github.com/oven-sh/bun)
 
 - Zig
-  - The latest stable is generally available through brew
-  - [Beta version](https://ziglang.org/download/) precompiled bins and libs are available to download.
-    ```
-    cp pathtonew/zig to /usr/local/bin
-    cp -r lib/* /usr/local/libs/zig
-    ```
-  - Install zls. Either use the prebuilt bins and copy to `/usr/bin/zls` and update permission with `chmod +x zls` or build with the latest release of zig.
+  - Use [ZVM](https://github.com/tristanisham/zvm) to manage zig versions. If you have any other zig/zls versions installed you must remove them first.
