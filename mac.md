@@ -13,6 +13,7 @@ Preference is to install through DMGs and avoid going through the app store.
 - Rectangle - Window manager
 - Raycast - Spotlight replacement
 - [Arc](https://arc.net/) - AI enabled browser currently only on Mac
+- Go to Keyboard settings and increase the key repeat rate to the fastest to help Neovim feel better.
 
 ### Tech stuff
 
