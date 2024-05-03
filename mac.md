@@ -33,14 +33,7 @@ Preference is to install through DMGs and avoid going through the app store.
 
 - [Bunjs](https://bun.sh/)
 - Zig
-  - The latest stable is generally available through brew
-  - [Beta version](https://ziglang.org/download/) precompiled bins and libs are available to download.
-    ```
-    cp zig to /usr/local/bin
-    cp lib to /usr/local/libs/zig
-    ```
-  - When running zig the first time, a prompt may appear that prevents zig from running. Go to System Setting -> Privacy and Security and allow it.
-  - If installing ZLS from brew, it will take precidence over the bin in `/usr/local/bin`. Uninstall from brew as it could be the wrong version.
+  - Use [ZVM](https://github.com/tristanisham/zvm). You must remove other versions of zig before zvm will work.
 - [Rust](https://www.rust-lang.org/tools/install) - As of this writing, use rustup to manager installations and versions.
 - Install Docker and Rancher. Don't install Docker studio, do everything through Rancher
 
