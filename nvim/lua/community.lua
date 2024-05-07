@@ -12,5 +12,6 @@ return {
   { import = "astrocommunity.pack.elixir-phoenix" },
   { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.pack.json" },
+  { import = "astrocommunity.git.blame-nvim" },
   -- import/override with your plugins folder
 }
