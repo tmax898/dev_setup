@@ -27,13 +27,8 @@ These are all the cross platform tools to remember to install reguardless of OS.
 
 - Neovim - in-terminal editor. Copy the nvim configs to the root `.config` directory. [Astro](https://docs.astronvim.com) is used as the base. Follow their intial guide to install all other needed deps
   - Alternatively [Install VS Code](https://code.visualstudio.com/download)
-    - Extensions:
-      - Nightowl - theme
-      - rust
-      - zig
-      - eslint
-      - prettier
-      - code spell check
+    - Extensions should all be included in the nvim config files. The Night Owl theme is imported as a plugin, but the LSP packs are sourced from the community.
+      - TODO get a good setup for spell check and grammar.
   - Another alternative is Helix - This still is missing much of what Neovim provides as of the writing of this guide.
     - Follow up with the [Helix Setup](helix.md)
   - Nerdfonts - Each OS will walk through their own setup. Way more complicated than it ever should be to install a font.
