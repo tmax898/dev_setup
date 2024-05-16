@@ -4,12 +4,14 @@
 
 These are all the cross platform tools to remember to install reguardless of OS.
 
-### Software
-
 #### Browser
 
 - Chrome - Better than the default OS, normal use plenty of support, getting sketchier reguarding PII (not that it wasn't already).
 - [Brave](https://brave.com) - better privacy. Pick this over firefox or duck.
+- [Arc](https://arc.net/downloaded) - Brand new, efficient, buzzworthy.
+
+#### Software
+
 - [Obsidian](https://obsidian.md/download) - Notes
   - Install Git Sync and sync with git repo. This will pull any other plugins as well.
   - If running into GPG issues refer to https://github.com/denolehov/obsidian-git/issues/21
