@@ -30,6 +30,7 @@ These are all the cross platform tools to remember to install reguardless of OS.
 - Neovim - in-terminal editor. Copy the nvim configs to the root `.config` directory. [Astro](https://docs.astronvim.com) is used as the base. Follow their intial guide to install all other needed deps
   - Alternatively [Install VS Code](https://code.visualstudio.com/download)
     - Extensions should all be included in the nvim config files. The Night Owl theme is imported as a plugin, but the LSP packs are sourced from the community.
+    - Copy the .rgignore file to the root of the machine to save telescope from digging through generally non-human files.
       - TODO get a good setup for spell check and grammar.
   - Another alternative is Helix - This still is missing much of what Neovim provides as of the writing of this guide.
     - Follow up with the [Helix Setup](helix.md)
