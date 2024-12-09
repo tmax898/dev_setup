@@ -1,0 +1,48 @@
+# The syntax is "key = value". The whitespace around the equals doesn't matter.
+background = 011627
+foreground= d6deeb
+
+# Comments start with a `#` and are only valid on their own line.
+# Blank lines are ignored!
+
+keybind = ctrl+z=close_surface
+keybind = ctrl+d=new_split:right
+
+# Empty values reset the configuration to the default value
+
+font-family = "FiraCode Nerd Font"
+
+# Disables the cursor integration so the default block cursor renders.
+shell-integration-features = no-cursor
+
+# Hotkeys
+keybind = super+shift+e=new_split:right
+keybind = super+shift+d=new_split:down
+
+# Colors can be changed by setting the 16 colors of `palette`, which each color
+# being defined as regular and bold.
+#
+# black
+palette = 0=#011627
+palette = 8=#575656
+# red
+palette = 1=#ef5350
+palette = 9=#ef5350
+# green
+palette = 2=#22da6e
+palette = 10=#22da6e
+# yellow
+palette = 3=#addb67
+palette = 11=#ffeb95
+# blue
+palette = 4=#82aaff
+palette = 12=#82aaff
+# purple
+palette = 5=#c792ea
+palette = 13=#c792ea
+# aqua
+palette = 6=#21c7a8
+palette = 14=#7fdbca
+# white
+palette = 7=#ffffff
+palette = 15=#ffffff
