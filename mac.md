@@ -82,3 +82,5 @@ Other setup items to polish off the the dev experience.
 
 - Setup shell themes
   - Use [oh my zsh to install the p10k theme.](https://github.com/romkatv/powerlevel10k?tab=readme-ov-file#oh-my-zsh)
+ 
+- Remove login prompts with `touch ~/.hushlogin`
