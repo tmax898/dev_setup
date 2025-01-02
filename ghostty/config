@@ -1,3 +1,6 @@
+# Font size
+font-size = 12
+
 # The syntax is "key = value". The whitespace around the equals doesn't matter.
 background = 011627
 foreground= d6deeb
