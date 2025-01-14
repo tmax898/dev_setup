@@ -8,10 +8,13 @@
 return {
   "AstroNvim/astrocommunity",
   { import = "astrocommunity.pack.lua" },
+  { import = "astrocommunity.media.neocord-nvim" },
   { import = "astrocommunity.pack.zig" },
   { import = "astrocommunity.pack.elixir-phoenix" },
   { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.pack.json" },
   { import = "astrocommunity.git.blame-nvim" },
+  { import = "astrocommunity.pack.scala" },
+  { import = "astrocommunity.test.neotest" },
   -- import/override with your plugins folder
 }
