@@ -6,6 +6,7 @@
   - Under `HKEY_LOCAL_MACHINE/SOFTWARE/Microsoft/Windows/CurrentVersion/Explorer` create a new key called `Shell Icons` and add a new value of `29: `PATH/TO/Blank.ico`
 - Window's built in Terminal has come a long ways.
   - TODO: CREATE GUIDE FOR CONFIGS AND THEMES.
+  - Theme https://github.com/edurojasr/Windows-Terminal-Night-Owl-Theme
 - If using Hyper, update Hyper and its settings with the set of windows configs.
   - Copy over .hyper.js configs to `~/{user}/AppData/Roaming/Hyper`
   - Note the `hypercwd` plugin is not supported and does not work with WSL.
