@@ -7,6 +7,7 @@
 - Window's built in Terminal has come a long ways.
   - TODO: CREATE GUIDE FOR CONFIGS AND THEMES.
   - Theme https://github.com/edurojasr/Windows-Terminal-Night-Owl-Theme
+  - After installing the fonts you want (how-to below), go to the profile and set the font.
 - If using Hyper, update Hyper and its settings with the set of windows configs.
   - Copy over .hyper.js configs to `~/{user}/AppData/Roaming/Hyper`
   - Note the `hypercwd` plugin is not supported and does not work with WSL.
@@ -18,11 +19,9 @@
   - Follow prompts, but it will expect you to `reboot`.
 - Install [Rancher Desktop](https://rancherdesktop.io/)
 - Install [Nerd Fonts](https://www.nerdfonts.com/)
-
-  - Clone and run install scripts for powerline fonts. [Github](<(https://github.com/ryanoasis/nerd-fonts)>)
-  - Cloning the whole project is huge. Just install and Firacode. Powerline is patched into that font.
-  - Use the table in the README to follow to the actual repo. Name of font is the REPO's name _NOT_ the nice human formatted name.
-
+  - Directly downoload [Fira Code Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/FiraCode.zip).
+  - Or peruse and find the font you want from [here](https://www.nerdfonts.com/font-downloads).
+  - Once downloaded, unzip and double click all font you want to install. 
   ```bash
   # After doing a shallow clone (Read through the Nerdfonts README)
   $ .\install.ps1 FiraCode
