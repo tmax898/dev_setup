@@ -61,7 +61,7 @@
   - Set main as your default branch globally.
 
   ```bash
-    git config --global init.defaultBranch main
+  git config --global init.defaultBranch main
   ```
 
 ### Customize Terminal
