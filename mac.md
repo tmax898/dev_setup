@@ -36,6 +36,8 @@ Preference is to install through DMGs and avoid going through the app store.
 - Zig
   - Use [ZVM](https://github.com/tristanisham/zvm). You must remove other versions of zig before zvm will work.
 - [Rust](https://www.rust-lang.org/tools/install) - As of this writing, use rustup to manager installations and versions.
+- Go - `brew install go`
+  - Golang can manage versions itself.
 - Install Docker and Rancher. Don't install Docker studio, do everything through Rancher
 
 ## Setup
@@ -81,6 +83,7 @@ Other setup items to polish off the the dev experience.
   - Copy the hyper configs included and modify the shell settings back to being defaults for mac.
 
 - Setup shell themes
+
   - Use [oh my zsh to install the p10k theme.](https://github.com/romkatv/powerlevel10k?tab=readme-ov-file#oh-my-zsh)
- 
+
 - Remove login prompts with `touch ~/.hushlogin`
