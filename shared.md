@@ -35,3 +35,13 @@ These are all the cross platform tools to remember to install reguardless of OS.
   - Another alternative is Helix - This still is missing much of what Neovim provides as of the writing of this guide.
     - Follow up with the [Helix Setup](helix.md)
   - Nerdfonts - Each OS will walk through their own setup. Way more complicated than it ever should be to install a font.
+
+- Git notes:
+  - When forking repos for projects like ziglings. You can set the upstream to pull in updates from the original channel with the following:
+    ```
+      git remote add upstream https://github.com/original-repo/goes-here.git
+      git fetch upstream
+      git rebase upstream/master
+      # if need be force push back to the forked repo
+      git push origin master --force
+    ```
