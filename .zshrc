@@ -19,6 +19,9 @@ export ZSH="$HOME/.oh-my-zsh"
 # Zig
 export PATH=$PATH:~/user/local/bin/zig
 
+# Go
+export PATH=$PATH:$HOME/go/bin
+
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
@@ -137,3 +140,12 @@ export PATH="/Users/max/.rd/bin:$PATH"
 ### MANAGED BY RANCHER DESKTOP END (DO NOT EDIT)
 
 printf '\eP$f{"hook": "SourcedRcFileForWarp", "value": { "shell": "zsh" }}\x9c'
+
+# Ghostty shell integration for zsh.
+
+# if [ -n "${GHOSTTY_RESOURCES_DIR}" ]; then
+#   ${GHOSTTY_RESOURCES_DIR}/shell-integration/zsh/ghostty-integration
+# fi
+
+. /opt/homebrew/opt/asdf/libexec/asdf.sh
+. ~/.asdf/plugins/java/set-java-home.zsh
