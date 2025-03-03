@@ -8,6 +8,7 @@
 return {
   "AstroNvim/astrocommunity",
   { import = "astrocommunity.pack.lua" },
+  { import = "astrocommunity.motion.nvim-surround" },
   { import = "astrocommunity.media.neocord-nvim" },
   { import = "astrocommunity.pack.zig" },
   { import = "astrocommunity.pack.elixir-phoenix" },
