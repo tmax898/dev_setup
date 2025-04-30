@@ -22,6 +22,9 @@ return {
 
         -- install any other package
         "tree-sitter-cli",
+
+        -- install zig
+        "zls",
       },
     },
   },
