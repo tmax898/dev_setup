@@ -21,5 +21,6 @@ return {
   { import = "astrocommunity.test.neotest" },
   { import = "astrocommunity.pack.go" },
   { import = "astrocommunity.pack.xml" },
+  { import = "astrocommunity.test.neotest" },
   -- import/override with your plugins folder
 }
