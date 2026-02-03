@@ -1,8 +1,10 @@
+if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
+
 return {
   "yetone/avante.nvim",
   event = "VeryLazy",
   opts = {
-    provider = "gemini", -- This should set the provider
+    provider = "gemini-cli", -- This should set the provider
     providers = {
       gemini = {
         model = "gemini-2.5-flash",
@@ -23,11 +25,9 @@ return {
     acp_providers = {
       ["gemini-cli"] = {
         command = "gemini",
-        model = "gemini-2.5-flash",
         args = { "--experimental-acp" },
         env = {
           NODE_NO_WARNINGS = "1",
-          GEMINI_API_KEY = os.getenv "AVANTE_GEMINI_API_KEY",
         },
       },
     },
