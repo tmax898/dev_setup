@@ -1,11 +1,20 @@
 return {
   "olimorris/codecompanion.nvim",
-  version = "^18.0.0",
   dependencies = {
     "nvim-lua/plenary.nvim",
     "nvim-treesitter/nvim-treesitter",
+    "lalitmee/codecompanion-spinners.nvim",
+    "j-hui/fidget.nvim",
   },
   opts = {
+    log_level = "DEBUG",
+    extensions = {
+      spinner = {
+        opts = {
+          style = "fidget",
+        },
+      },
+    },
     interactions = {
       chat = {
         adapter = "gemini_cli",
@@ -22,14 +31,10 @@ return {
         end,
       },
     },
-    -- NOTE: The log_level is in `opts.opts`
-    opts = {
-      log_level = "DEBUG",
-    },
   },
   keys = {
     {
-      "<leader>A",
+      "<leader>a",
       function() require("codecompanion").chat() end,
       desc = "CodeCompanion Chat",
     },
