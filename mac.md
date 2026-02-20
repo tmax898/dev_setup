@@ -33,16 +33,41 @@ Preference is to install through DMGs and avoid going through the app store.
   - Use it to install node
 
   - `nvm install node`
-
+- Install [asdf](https://asdf-vm.com/) - Version manager for various things 
 - [Bunjs](https://bun.sh/)
 - Zig
   - Use [ZVM](https://github.com/tristanisham/zvm). You must remove other versions of zig before zvm will work.
 - [Rust](https://www.rust-lang.org/tools/install) - As of this writing, use rustup to manager installations and versions.
 - Go - `brew install go`
   - Golang can manage versions itself.
+- Install elixir
+  - Use asdf
+  - Prereq installs:
+  - ```
+    brew install fop unixodbc
+    brew install --build-from-source wxmac
+    ```
+  - ```
+    asdf plugin add erlang
+    asdf plugin add elixir
+    asdf install erlang latest
+    ```
+  - Try installing latest elixir,
+  - ```
+    asdf install elixir latest
+    ```
+  - but it may not have a registered version through hex. You'll have to manually specify a version.
+  - ```
+    asdf list all elixir
+    asdf install elixir {version you want no curly brackets}
+    ```
+  - Set it globally if desired.
+  - ```
+    asdf set --home erlang {version that was installed}
+    asdf set --home elixir {version that was installed}
+    ```
 - Install Docker and Rancher. Don't install Docker studio, do everything through Rancher
 - Install K9s to manager Kube
-- Install [asdf](https://asdf-vm.com/) - Version manager for various things 
 
 ## Setup
 
