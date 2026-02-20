@@ -11,8 +11,9 @@ This is more straightforward since we don't need the subsystem crossover hoopla.
 Preference is to install through DMGs and avoid going through the app store.
 
 - [Ghostty](https://ghostty.org/) - Zig based terminal
-- Rectangle - Window manager
-- Raycast - Spotlight replacement
+- [Rectangle](https://rectangleapp.com/) - Window manager.
+  - `brew install --cask rectangle` 
+- [Raycast](https://www.raycast.com/) - Spotlight replacement
 - [Arc](https://arc.net/) - AI enabled browser
 - Go to Keyboard settings and increase the key repeat rate to the fastest to help Neovim feel better.
 
@@ -24,14 +25,14 @@ Preference is to install through DMGs and avoid going through the app store.
 
   - "Hack Nerd Font" for terminal p10k
 
-    `brew install font-hack-nerd-font`
+  - `brew install font-hack-nerd-font`
 
 - [Install Oh my Zsh](https://ohmyz.sh/)
 - [Install nvm](https://github.com/nvm-sh/nvm?tab=readme-ov-file#installing-and-updating)
 
   - Use it to install node
 
-    `nvm install node`
+  - `nvm install node`
 
 - [Bunjs](https://bun.sh/)
 - Zig
