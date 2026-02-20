@@ -28,6 +28,10 @@ Preference is to install through DMGs and avoid going through the app store.
   - `brew install font-hack-nerd-font`
 
 - [Install Oh my Zsh](https://ohmyz.sh/)
+- Install [gemini-cli](https://geminicli.com/)
+  - `brew install gemini-cli`
+ 
+### Langs
 - [Install nvm](https://github.com/nvm-sh/nvm?tab=readme-ov-file#installing-and-updating)
 
   - Use it to install node
