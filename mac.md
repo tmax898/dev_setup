@@ -10,9 +10,10 @@ This is more straightforward since we don't need the subsystem crossover hoopla.
 
 Preference is to install through DMGs and avoid going through the app store.
 
+- [Ghostty](https://ghostty.org/) - Zig based terminal
 - Rectangle - Window manager
 - Raycast - Spotlight replacement
-- [Arc](https://arc.net/) - AI enabled browser currently only on Mac
+- [Arc](https://arc.net/) - AI enabled browser
 - Go to Keyboard settings and increase the key repeat rate to the fastest to help Neovim feel better.
 
 ### Tech stuff
@@ -39,6 +40,7 @@ Preference is to install through DMGs and avoid going through the app store.
 - Go - `brew install go`
   - Golang can manage versions itself.
 - Install Docker and Rancher. Don't install Docker studio, do everything through Rancher
+- Install K9s to manager Kube
 
 ## Setup
 
