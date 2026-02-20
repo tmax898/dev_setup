@@ -42,6 +42,7 @@ Preference is to install through DMGs and avoid going through the app store.
   - Golang can manage versions itself.
 - Install Docker and Rancher. Don't install Docker studio, do everything through Rancher
 - Install K9s to manager Kube
+- Install [asdf](https://asdf-vm.com/) - Version manager for various things 
 
 ## Setup
 
