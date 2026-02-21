@@ -71,6 +71,7 @@ Preference is to install through DMGs and avoid going through the app store.
     asdf set --home elixir {version that was installed}
     ```
 - Install Docker and Rancher. Don't install Docker studio, do everything through Rancher
+  - Install the rancher cli `brew install rancher-cli`
 - Install K9s to manager Kube
 
 ## Setup
