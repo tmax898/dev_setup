@@ -21,6 +21,8 @@ return {
   { import = "astrocommunity.test.neotest" },
   { import = "astrocommunity.pack.go" },
   { import = "astrocommunity.pack.xml" },
+  -- { import = "astrocommunity.pack.elixir-phoenix" },
+  -- { import = "astrocommunity.editing-support.mcphub-nvim" },
   -- { import = "astrocommunity.completion.avante-nvim" },
   -- import/override with your plugins folder
 }

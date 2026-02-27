@@ -35,7 +35,8 @@ These are all the cross platform tools to remember to install reguardless of OS.
   - Another alternative is Helix - This still is missing much of what Neovim provides as of the writing of this guide.
     - Follow up with the [Helix Setup](helix.md)
   - Nerdfonts - Each OS will walk through their own setup. Way more complicated than it ever should be to install a font.
-
+  - If using AI and MCP servers install [MCPHub](https://ravitemer.github.io/mcphub.nvim/installation.html)
+    - This is still a little flakey so ymmv.
 - Git notes:
   - When forking repos for projects like ziglings. You can set the upstream to pull in updates from the original channel with the following:
     ```
