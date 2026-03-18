@@ -22,6 +22,9 @@ export PATH=$PATH:~/user/local/bin/zig
 # Go
 export PATH=$PATH:$HOME/go/bin
 
+# Luarocks
+export LUA_PATH="$LUA_PATH;$HOME/.luarocks/share/lua/5.1/?.lua"
+
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
@@ -121,6 +124,12 @@ source $ZSH/oh-my-zsh.sh
 # Alias nvim because I'm lazy
 alias nv="nvim"
 
+# Alias npm run to npr
+alias npr="npm run"
+
+# Alias npm run to npr
+alias gg="lazygit"
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
@@ -149,3 +158,5 @@ printf '\eP$f{"hook": "SourcedRcFileForWarp", "value": { "shell": "zsh" }}\x9c'
 
 . /opt/homebrew/opt/asdf/libexec/asdf.sh
 . ~/.asdf/plugins/java/set-java-home.zsh
+
+[ -s ~/.luaver/luaver ] && . ~/.luaver/luaver
