@@ -37,7 +37,7 @@ Preference is to install through DMGs and avoid going through the app store.
   - Use it to install node
 
   - `nvm install node`
-- Install [asdf](https://asdf-vm.com/) - Version manager for various things 
+- Install [mise](https://mise.jdx.dev/) - Version manager for various things 
 - [Bunjs](https://bun.sh/)
 - Zig
   - Use [ZVM](https://github.com/tristanisham/zvm). You must remove other versions of zig before zvm will work.
