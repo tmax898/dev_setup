@@ -45,30 +45,14 @@ Preference is to install through DMGs and avoid going through the app store.
 - Go - `brew install go`
   - Golang can manage versions itself.
 - Install elixir
-  - Use asdf
+  - Use mise `brew install mise`
   - Prereq installs:
   - ```
     brew install fop unixodbc
     brew install --build-from-source wxmac
     ```
   - ```
-    asdf plugin add erlang
-    asdf plugin add elixir
-    asdf install erlang latest
-    ```
-  - Try installing latest elixir,
-  - ```
-    asdf install elixir latest
-    ```
-  - but it may not have a registered version through hex. You'll have to manually specify a version.
-  - ```
-    asdf list all elixir
-    asdf install elixir {version you want no curly brackets}
-    ```
-  - Set it globally if desired.
-  - ```
-    asdf set --home erlang {version that was installed}
-    asdf set --home elixir {version that was installed}
+    mise use -g erlang elixir
     ```
 - Install Docker and Rancher. Don't install Docker studio, do everything through Rancher
   - Install the rancher cli `brew install rancher-cli`
