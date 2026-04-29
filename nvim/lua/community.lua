@@ -22,6 +22,6 @@ return {
   { import = "astrocommunity.pack.xml" },
   -- { import = "astrocommunity.pack.elixir-phoenix" },
   -- { import = "astrocommunity.editing-support.mcphub-nvim" },
-  { import = "astrocommunity.editing-support.nvim-origami" },
+  -- { import = "astrocommunity.editing-support.nvim-origami" },
   -- import/override with your plugins folder
 }
