@@ -33,6 +33,7 @@ return {
     interactions = {
       chat = {
         adapter = "gemini_cli",
+        variables = {},
       },
     },
     adapters = {

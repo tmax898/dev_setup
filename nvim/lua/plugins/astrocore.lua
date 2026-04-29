@@ -37,6 +37,28 @@ return {
         [".*/etc/foo/.*"] = "fooscript",
       },
     },
+    autocmds = {
+      autofold_imports = {
+        {
+          event = { "BufWinEnter" }, -- Fires when the buffer is displayed in a window
+          desc = "Auto-fold TypeScript imports",
+          callback = function(args)
+            -- Only run for TypeScript/JavaScript files
+            local ft = vim.bo[args.buf].filetype
+            if ft ~= "typescript" and ft ~= "typescriptreact" and ft ~= "javascript" then return end
+
+            -- Small defer to ensure Treesitter has finished the initial parse
+            vim.defer_fn(function()
+              if not vim.api.nvim_buf_is_valid(args.buf) then return end
+
+              -- Use 'global' to find the import block.
+              -- This finds the first line starting with 'import' and closes that fold.
+              vim.api.nvim_buf_call(args.buf, function() vim.cmd [[ silent! 1g/^import /normal! zc ]] end)
+            end, 100) -- 100ms is usually enough to let TS-LSP and TS-Parser settle
+          end,
+        },
+      },
+    },
     -- vim options can be configured here
     options = {
       opt = { -- vim.opt.<key>
@@ -45,6 +67,13 @@ return {
         spell = false, -- sets vim.opt.spell
         signcolumn = "yes", -- sets vim.opt.signcolumn to yes
         wrap = false, -- sets vim.opt.wrap
+        -- auto-folding options
+        foldmethod = "expr",
+        foldexpr = "v:lua.vim.treesitter.foldexpr()",
+        -- Keep foldlevel high so everything else stays open by default
+        foldlevel = 99,
+        foldlevelstart = 99,
+        foldenable = true,
       },
       g = { -- vim.g.<key>
         -- configure global vim variables (vim.g)

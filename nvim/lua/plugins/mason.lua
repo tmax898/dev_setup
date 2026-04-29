@@ -22,12 +22,6 @@ return {
 
         -- install any other package
         "tree-sitter-cli",
-
-        -- install zig
-        "zls",
-
-        -- install elixir, the elixir pack seems to be wrong
-        "elixir-ls",
       },
     },
   },
