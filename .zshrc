@@ -159,7 +159,5 @@ printf '\eP$f{"hook": "SourcedRcFileForWarp", "value": { "shell": "zsh" }}\x9c'
 #   ${GHOSTTY_RESOURCES_DIR}/shell-integration/zsh/ghostty-integration
 # fi
 
-. /opt/homebrew/opt/asdf/libexec/asdf.sh
-. ~/.asdf/plugins/java/set-java-home.zsh
-
 [ -s ~/.luaver/luaver ] && . ~/.luaver/luaver
+eval "$(mise activate zsh)"
