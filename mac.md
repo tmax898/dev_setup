@@ -37,7 +37,8 @@ Preference is to install through DMGs and avoid going through the app store.
   - Use it to install node
 
   - `nvm install node`
-- Install [mise](https://mise.jdx.dev/) - Version manager for various things 
+- Install [mise](https://mise.jdx.dev/) - Version manager for various things
+  - Use `mise doctor` if issues arise.   
 - [Bunjs](https://bun.sh/)
 - Zig
   - Use [ZVM](https://github.com/tristanisham/zvm). You must remove other versions of zig before zvm will work.
@@ -45,8 +46,7 @@ Preference is to install through DMGs and avoid going through the app store.
 - Go - `brew install go`
   - Golang can manage versions itself.
 - Install elixir
-  - Use mise `brew install mise`
-    - Use `mise doctor` if issues arise.   
+  - Use mise
   - Prereq installs:
   - ```
     brew install fop unixodbc
