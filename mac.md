@@ -46,6 +46,7 @@ Preference is to install through DMGs and avoid going through the app store.
   - Golang can manage versions itself.
 - Install elixir
   - Use mise `brew install mise`
+    - Use `mise doctor` if issues arise.   
   - Prereq installs:
   - ```
     brew install fop unixodbc
